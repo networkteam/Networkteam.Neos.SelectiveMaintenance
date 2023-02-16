@@ -12,7 +12,16 @@
           label: i18n
           icon: 'icon-tools'
           tab: 'selectiveMaintenance'
+
   properties:
+    inheritMaintained:
+      type: boolean
+      defaultValue: true
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: 'selectiveMaintenance'
     maintained:
       type: boolean
       ui:
@@ -20,6 +29,7 @@
         reloadIfChanged: true
         inspector:
           group: 'selectiveMaintenance'
+          hidden: "ClientEval:node.properties.inheritMaintained == true"
     maintenanceDocument:
       type: reference
       ui:
@@ -29,7 +39,7 @@
         reloadIfChanged: true
         inspector:
           group: 'selectiveMaintenance'
-          hidden: "ClientEval:node.properties.maintained == false"
+          hidden: "ClientEval:node.properties.maintained == false || node.properties.inheritMaintained == true"
     maintenanceContentNodePath:
       type: string
       ui:
@@ -39,6 +49,6 @@
         reloadIfChanged: true
         inspector:
           group: 'selectiveMaintenance'
-          hidden: "ClientEval:node.properties.maintained == false"
+          hidden: "ClientEval:node.properties.maintained == false || node.properties.inheritMaintained == true"
           editorOptions:
             placeholder: 'main'

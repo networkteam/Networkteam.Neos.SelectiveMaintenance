@@ -8,6 +8,9 @@
             <trans-unit id="groups.selectiveMaintenance" xml:space="preserve">
 				<source>Selective Maintenance</source>
 			</trans-unit>
+            <trans-unit id="properties.inheritMaintained" xml:space="preserve">
+				<source>Inherit maintenance mode</source>
+			</trans-unit>
             <trans-unit id="properties.maintained" xml:space="preserve">
 				<source>In maintenance mode</source>
 			</trans-unit>
