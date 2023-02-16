@@ -1,4 +1,4 @@
-'Networkteam.Neos.SelectiveMaintenance:Mixin.Document':
+'Networkteam.Neos.SelectiveMaintenance:Mixin.Maintenance':
   abstract: true
   ui:
     inspector:
