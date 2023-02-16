@@ -1,0 +1,14 @@
+Neos:
+
+  Neos:
+    fusion:
+      autoInclude:
+        'Networkteam.Neos.SelectiveMaintenance': true
+
+    userInterface:
+      translation:
+        autoInclude:
+          'Networkteam.Neos.SelectiveMaintenance':
+            - Main
+            - 'NodeTypes/*'
+

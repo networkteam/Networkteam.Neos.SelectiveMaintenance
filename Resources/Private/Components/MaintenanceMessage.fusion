@@ -1,0 +1,10 @@
+prototype(Networkteam.Neos.SelectiveMaintenance:MaintenanceMessage) < prototype(Neos.Fusion:Component) {
+
+    renderer = afx`
+        <div style="border: 3px solid red; margin: 20px; padding: 10px; color: red;">
+            <h1 style="color: red; text-align: center">
+                {Translation.value('Maintenance mode is activated').package('Networkteam.Neos.SelectiveMaintenance')}
+            </h1>
+        </div>
+    `
+}

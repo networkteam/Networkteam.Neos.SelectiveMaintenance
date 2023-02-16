@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Networkteam.Neos.SelectiveMaintenance" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="tabs.selectiveMaintenance" xml:space="preserve">
+				<source>Selective Maintenance</source>
+			</trans-unit>
+            <trans-unit id="groups.selectiveMaintenance" xml:space="preserve">
+				<source>Selective Maintenance</source>
+			</trans-unit>
+            <trans-unit id="properties.maintained" xml:space="preserve">
+				<source>In maintenance mode</source>
+			</trans-unit>
+            <trans-unit id="properties.maintenanceDocument">
+                <source>Maintenance document</source>
+            </trans-unit>
+            <trans-unit id="properties.maintenanceDocument.ui.help.message">
+                <source>The document to load content from when maintenance mode is activated.
+
+If you leave this field **empty**, **maintenance** mode will stay **disabled**.
+                </source>
+            </trans-unit>
+            <trans-unit id="properties.maintenanceContentNodePath">
+                <source>Content nodePath</source>
+            </trans-unit>
+            <trans-unit id="properties.maintenanceContentNodePath.ui.help.message">
+                <source>The content found in ContentCollection at `nodePath` of maintenance document will be used for rendering, only.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
+

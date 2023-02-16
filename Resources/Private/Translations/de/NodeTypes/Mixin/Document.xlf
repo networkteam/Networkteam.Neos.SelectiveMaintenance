@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Networkteam.Neos.SelectiveMaintenance" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="tabs.selectiveMaintenance" xml:space="preserve">
+				<source>Selective Maintenance</source>
+                <target>Selektive Wartung</target>
+			</trans-unit>
+            <trans-unit id="groups.selectiveMaintenance" xml:space="preserve">
+				<source>Selective Maintenance</source>
+                <target>Selektive Wartung</target>
+			</trans-unit>
+            <trans-unit id="properties.maintained" xml:space="preserve">
+				<source>In maintenance mode</source>
+                <target>Im Wartungsmodus</target>
+			</trans-unit>
+            <trans-unit id="properties.maintenanceDocument">
+                <source>Maintenance page</source>
+                <target>Wartungsseite</target>
+            </trans-unit>
+            <trans-unit id="properties.maintenanceDocument.ui.help.message">
+                <source>The page to load content from when maintenance mode is activated.
+
+If you leave this field **empty**, **maintenance** mode will stay **disabled**.
+                </source>
+                <target>Die Seite, von der der Inhalt geladen werden soll, wenn der Wartungsmodus aktiviert ist.
+
+Wenn Sie dieses Feld **leer** lassen, bleibt der **Wartungsmodus** **deaktiviert**.
+                </target>
+            </trans-unit>
+            <trans-unit id="properties.maintenanceContentNodePath">
+                <source>Content nodePath</source>
+                <target>NodePath für Inhalt</target>
+            </trans-unit>
+            <trans-unit id="properties.maintenanceContentNodePath.ui.help.message">
+                <source>The content found in ContentCollection at `nodePath` of maintenance document will be used for rendering, only.</source>
+                <target>Nur der Inhalt, welcher in der ContentCollection unter `nodePath` des Wartungsdokuments gefunden wird, wird zum Rendern verwendet.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
+

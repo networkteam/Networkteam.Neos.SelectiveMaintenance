@@ -1,1 +1,2 @@
-include: **/*.fusion
+include: ./**/*.fusion
+include: resource://Networkteam.Neos.SelectiveMaintenance/Private/Components/**/*.fusion

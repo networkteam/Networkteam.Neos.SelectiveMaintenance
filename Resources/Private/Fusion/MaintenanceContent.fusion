@@ -1,0 +1,28 @@
+prototype(Networkteam.Neos.SelectiveMaintenance:MaintenanceContent) < prototype(Neos.Fusion:Case) {
+    @context {
+        maintained = ${q(node).property('maintained') && q(node).property('maintenanceDocument')}
+        nodePath = ${String.isBlank(q(node).property('maintenanceContentNodePath')) ? 'main' : q(node).property('maintenanceContentNodePath')}
+    }
+
+    live {
+        condition = ${!node.context.inBackend && maintained}
+        // for use in Neos.Neos:ContentCollection
+        @context.node = ${q(node).property('maintenanceDocument')}
+        renderer = Neos.Neos:ContentCollection {
+            nodePath = ${nodePath}
+        }
+    }
+
+    inBackend {
+        condition = ${node.context.inBackend && maintained}
+        renderer = Neos.Fusion:Join {
+            message = Networkteam.Neos.SelectiveMaintenance:MaintenanceMessage
+            content = ${value}
+        }
+    }
+
+    default {
+        condition = true
+        renderer = ${value}
+    }
+}
