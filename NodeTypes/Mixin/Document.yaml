@@ -1,10 +1,9 @@
 'Networkteam.Neos.SelectiveMaintenance:Mixin.Document':
   abstract: true
+
   properties:
     maintained:
-      type: bool
+      type: boolean
       ui:
         label: i18n
-        inspector:
-          group: 'nodeTypes.groups.selectiveMaintenance'
 

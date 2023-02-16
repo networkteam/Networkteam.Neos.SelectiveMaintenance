@@ -1,8 +1,16 @@
 Neos:
   Neos:
+
+    translation:
+      autoInclude:
+        Networkteam.Neos.SelectiveMaintenance:
+          - Main
+          - 'NodeTypes/*'
+
     nodeTypes:
       groups:
         selectiveMaintenance:
           position: end
-          label: 'Neos.Neos:Main:nodeTypes.groups.selectiveMaintenance'
+          label: 'Networkteam.Neos.SelectiveMaintenance:Main:nodeTypes.groups.selectiveMaintenance'
           collapsed: true
+
