@@ -1,0 +1,8 @@
+Neos:
+  Neos:
+    nodeTypes:
+      groups:
+        selectiveMaintenance:
+          position: end
+          label: 'Neos.Neos:Main:nodeTypes.groups.selectiveMaintenance'
+          collapsed: true

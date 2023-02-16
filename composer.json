@@ -1,0 +1,18 @@
+{
+    "description": "Enable maintenance mode for specific documents in your page tree.",
+    "type": "neos-package",
+    "name": "networkteam/neos-selectivemaintenance",
+    "require": {
+        "neos/neos": "~7.3|~8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Networkteam\\Neos\\SelectiveMaintenance\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Networkteam.Neos.SelectiveMaintenance"
+        }
+    }
+}
