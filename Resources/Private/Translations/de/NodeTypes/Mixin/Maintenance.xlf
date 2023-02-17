@@ -15,9 +15,13 @@
                 <target>Wartungsmodus erben</target>
 			</trans-unit>
             <trans-unit id="properties.maintained" xml:space="preserve">
-				<source>In maintenance mode</source>
-                <target>Im Wartungsmodus</target>
+				<source>Activate maintenance mode</source>
+                <target>Wartungsmodus aktivieren</target>
 			</trans-unit>
+            <trans-unit id="properties.maintained.ui.help.message">
+                <source>Activate maintenance mode for this page and all descendants.</source>
+                <target>Aktiviere den Wartungsmodus für diese und alle Unterseiten.</target>
+            </trans-unit>
             <trans-unit id="properties.maintenanceDocument">
                 <source>Maintenance page</source>
                 <target>Wartungsseite</target>

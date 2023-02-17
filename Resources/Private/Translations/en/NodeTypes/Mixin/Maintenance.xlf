@@ -12,8 +12,11 @@
 				<source>Inherit maintenance mode</source>
 			</trans-unit>
             <trans-unit id="properties.maintained" xml:space="preserve">
-				<source>In maintenance mode</source>
+				<source>Activate maintenance mode</source>
 			</trans-unit>
+            <trans-unit id="properties.maintained.ui.help.message">
+                <source>Activate maintenance mode for this page and all descendants.</source>
+            </trans-unit>
             <trans-unit id="properties.maintenanceDocument">
                 <source>Maintenance document</source>
             </trans-unit>
