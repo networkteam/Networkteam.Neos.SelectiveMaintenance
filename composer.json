@@ -5,6 +5,7 @@
     "require": {
         "neos/neos": "~7.3|~8.0"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Networkteam\\Neos\\SelectiveMaintenance\\": "Classes/"
