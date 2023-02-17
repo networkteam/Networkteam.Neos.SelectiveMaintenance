@@ -1,0 +1,7 @@
+prototype(Neos.Neos:Page) {
+    @cache {
+        entryTags {
+            'Networkteam.Neos.SelectiveMaintenance' = ${Neos.Caching.nodeTypeTag('Networkteam.Neos.SelectiveMaintenance:Mixin.Maintenance', node)}
+        }
+    }
+}
